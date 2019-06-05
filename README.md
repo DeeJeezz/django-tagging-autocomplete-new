@@ -9,7 +9,7 @@
 django-tagging-autocomplete-new is a jquery based autocomplete solution for
 django-tagging.
 
-This is fixed version of [django-tagging-autocomplete](https://github.com/ludwiktrammer/django-tagging-autocomplete) by @ludwiktrammer for Django 2.2.
+This is fixed version of [django-tagging-autocomplete](https://github.com/ludwiktrammer/django-tagging-autocomplete) by [@ludwiktrammer](https://github.com/ludwiktrammer/) for Django 2.2.
 
 ### Requirements
 
