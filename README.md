@@ -1,5 +1,11 @@
 # django-tagging-autocomplete-new
 
+![pypi](https://img.shields.io/pypi/v/django-tagging-autocomplete-new.svg)
+![github_version](https://img.shields.io/github/release/grobivanovich/django-tagging-autocomplete-new.svg)
+![license](https://img.shields.io/github/license/GrobIvanovich/django-tagging-autocomplete-new.svg)
+![wheel](https://img.shields.io/pypi/wheel/django-tagging-autocomplete-new.svg)
+![python](https://img.shields.io/pypi/pyversions/django-tagging-autocomplete-new.svg)
+
 django-tagging-autocomplete-new is a jquery based autocomplete solution for
 django-tagging.
 
