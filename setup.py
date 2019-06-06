@@ -10,7 +10,7 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-tagging-autocomplete-new',
-    version='0.6.1',
+    version='0.6.2',
     description="Autocompletion for django-tagging. Rebuild for Django 2.2. Original by Ludwik Trammer.",
     long_description=markdown.clean(README),
     long_description_content_type="text/markdown",

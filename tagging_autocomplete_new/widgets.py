@@ -7,7 +7,7 @@ class TagAutocomplete(Input):
     input_type = 'text'
 	
     def render(self, name, value, attrs=None, renderer=None):
-        json_view = reverse('tagging_autocomplete-list')
+        json_view = reverse('tagging_autocomplete_new-list')
         html = super(TagAutocomplete, self).render(name, value, attrs)
         js = u'''<script type="text/javascript">
         function split( val ) {
