@@ -28,7 +28,7 @@ pip install django-tagging-autocomplete-new
 INSTALLED_APPS = [
     ...
     'tagging',
-    'tagging_autocomplete',
+    'tagging_autocomplete_new',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -41,7 +41,7 @@ INSTALLED_APPS = [
 ```
 3. Add route to your project's `urls.py` file:
 ```python
-path('tagging_autocomplete/', include('tagging_autocomplete.urls'))
+path('tagging_autocomplete_new/', include('tagging_autocomplete_new.urls'))
 ```
 
 ### Usage
@@ -52,7 +52,7 @@ You can use `TagAutocompleteField()` to enable autocompletion right in your
 `models.py`. In most cases this is the easiest solution:
 ```python
     from django.db import models
-    from tagging_autocomplete.models import TagAutocompleteField
+    from tagging_autocomplete_new.models import TagAutocompleteField
 
     class SomeModel(models.Model):
             tags = TagAutocompleteField()
@@ -65,7 +65,7 @@ your form:
 ```python
     from django import forms
     from tagging.forms import TagField
-    from tagging_autocomplete.widgets import TagAutocomplete
+    from tagging_autocomplete_new.widgets import TagAutocomplete
 
     class SomeForm(forms.Form):
         tags = TagField(widget=TagAutocomplete())
